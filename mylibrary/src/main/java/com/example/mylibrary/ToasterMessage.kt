@@ -1,9 +1,9 @@
+package com.example.mylibrary
 
+import android.content.Context
 import android.widget.Toast
-
-import android.widget.Toast
-
-object ToasterMessage {
+@Suppress("unused")
+class ToasterMessage {
 
     fun s(c: Context, message: String) {
 
